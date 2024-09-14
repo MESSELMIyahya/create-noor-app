@@ -1,0 +1,12 @@
+/src
+/node_modules
+/changeset
+/.vscode
+
+.DS_Store
+.env
+.turbo
+.pnpm-lock.yaml
+tsconfig.json
+.eslintrc.cjs
+tsup.config.ts
