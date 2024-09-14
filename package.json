@@ -1,17 +1,21 @@
 {
   "name": "create-noor-app",
   "version": "0.0.1",
-  "description": "NoorJs Project Command Creator",
-  "main": "dist/index.js",
+  "description": "NoorJs Project Creator Command",
   "type": "module",
-  "module": "dist/index.js",
+  "module": "./dist/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "files": [
+    "dist",
+    "README.md",
+    "package.json",
+    "_templates"
+  ],
   "dependencies": {
     "@changesets/cli": "^2.27.8",
     "@types/fs-extra": "^11.0.4",
@@ -20,5 +24,11 @@
     "inquirer": "^10.2.2",
     "tsup": "^8.2.4",
     "typescript": "^5.6.2"
-  }
+  },
+  "keywords": [
+    "Noor.js",
+    "cli"
+  ],
+  "license": "MIT",
+  "author": "YahyaMesselmi"
 }
