@@ -1,4 +1,4 @@
-# Create NoorJs App Command
+# NoorJs Project Creator Command
 
 To create new NoorJs app run 
 ```bash
