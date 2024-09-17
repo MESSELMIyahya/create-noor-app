@@ -5,7 +5,7 @@ function HeroSection(this: Component): FCRendered {
   element("section", this);
 
   return () => (
-    <div className="w-full flex flex-col items-center pt-24 px-6 gap-12">
+    <div className="w-full flex flex-col items-center pt-10 xl:pt-12 2xl:pt-16 px-6 gap-12">
       {/* logo */}
       <NoorLogo />
       {/* content */}
