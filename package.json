@@ -1,14 +1,16 @@
 {
-  "name": "create-noor-app",
+  "name": "create-noor",
   "version": "0.2.0",
   "description": "NoorJs Project Creator Command",
   "type": "module",
-  "module": "./dist/index.js",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup"
+  },
+  "bin": {
+    "create-noor": "./dist/index.js"
   },
   "files": [
     "dist",
@@ -26,7 +28,7 @@
     "typescript": "^5.6.2"
   },
   "keywords": [
-    "Noor.js",
+    "NoorJs",
     "cli"
   ],
   "license": "MIT",
