@@ -1,6 +1,6 @@
 {
   "name": "create-noor",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "NoorJs Project Creator Command",
   "type": "module",
   "main": "./dist/index.js",
